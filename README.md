@@ -4,7 +4,7 @@
 
 A theme for Visual Studio Code inspired by the nightly bright colors of cyber-neon anime.
 
-![](static/ayame-vscode.png)
+![A screenshot of Ayame theme in Visual Studio Code](static/ayame-vscode.png)
 
 ## Install
 
