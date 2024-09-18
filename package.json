@@ -2,8 +2,21 @@
   "name": "ayame",
   "displayName": "Ayame",
   "description": "A theme inspired by the nightly bright colors of cyber-neon anime.",
-  "repository": "https://github.com/Nurdoidz/ayame-vscode",
+  "repository": "https://github.com/AyameTheme/vscode",
+  "homepage": "https://github.com/AyameTheme/vscode",
   "version": "1.0.0",
+  "publisher": "Nurdoidz",
+  "license": "MIT",
+  "keywords": [
+    "cyber-neon",
+    "anime",
+    "night",
+    "colorful"
+  ],
+  "icon": "icon.png",
+  "bugs": {
+    "url": "https://github.com/AyameTheme/vscode/issues"
+  },
   "engines": {
     "vscode": "^1.86.0"
   },
