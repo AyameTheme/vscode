@@ -11,5 +11,5 @@ A theme for Visual Studio Code inspired by the nightly bright colors of cyber-ne
 To install, launch the Command Palette (default: `Ctrl`/`Cmd`+`P`), then run:
 
 ```
-ext install ayame
+ext install Nurdoidz.ayame
 ```
