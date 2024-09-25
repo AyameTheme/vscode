@@ -1,0 +1,897 @@
+{
+    "name": "Ayame",
+    "colors": {
+        "activityBarBadge.background": "[[ayame:colors.activitybadge.hex]]",
+        "badge.background": "[[ayame:colors.fg400.hex]]",
+        "sideBar.dropBackground": "[[ayame:colors.bg600.hex]]88",
+        "editorGroup.dropBackground": "[[ayame:colors.bg600.hex]]88",
+        "terminal.dropBackground": "[[ayame:colors.bg600.hex]]88",
+        "panelSection.dropBackground": "[[ayame:colors.bg600.hex]]88",
+        "progressBar.background": "[[ayame:colors.progress.hex]]",
+        "badge.foreground": "[[ayame:colors.purewhite.hex]]",
+        "breadcrumb.background": "[[ayame:colors.modal.hex]]",
+        "button.background": "[[ayame:colors.button.hex]]",
+        "button.foreground": "[[ayame:colors.foreground.hex]]",
+        "checkbox.background": "[[ayame:colors.checkbox.hex]]",
+        "commandCenter.activeBackground": "[[ayame:colors.highlight.hex]]",
+        "commandCenter.background": "[[ayame:colors.modal.hex]]",
+        "dropdown.background": "[[ayame:colors.modal.hex]]",
+        "editor.background": "[[ayame:colors.background.hex]]",
+        "editor.findMatchBackground": "[[ayame:colors.match.hex]]44",
+        "editor.findMatchBorder": "[[ayame:colors.match.hex]]88",
+        "editor.findMatchHighlightBackground": "[[ayame:colors.match.hex]]44",
+        "editor.findMatchHighlightBorder": "[[ayame:colors.match.hex]]88",
+        "editor.foreground": "[[ayame:colors.foreground.hex]]",
+        "editor.lineHighlightBackground": "[[ayame:colors.highlight.hex]]",
+        "editor.lineHighlightBorder": "[[ayame:colors.highlightborder.hex]]",
+        "editor.selectionBackground": "[[ayame:colors.selection.hex]]",
+        "editor.wordHighlightBackground": "[[ayame:colors.cyan900.hex]]44",
+        "editor.wordHighlightBorder": "[[ayame:colors.cyan.hex]]88",
+        "editor.wordHighlightStrongBackground": "[[ayame:colors.cyan900.hex]]44",
+        "editor.wordHighlightStrongBorder": "[[ayame:colors.cyan.hex]]88",
+        "editorInlayHint.background": "[[ayame:colors.modal.hex]]",
+        "editorInlayHint.foreground": "[[ayame:colors.muted.hex]]",
+        "editorInlayHint.parameterBackground": "[[ayame:colors.modal.hex]]",
+        "editorInlayHint.parameterForeground": "[[ayame:colors.muted.hex]]",
+        "editorInlayHint.typeBackground": "[[ayame:colors.modal.hex]]",
+        "editorInlayHint.typeForeground": "[[ayame:colors.muted.hex]]",
+        "editorOverviewRuler.addedForeground": "[[ayame:colors.added.hex]]",
+        "editorOverviewRuler.deletedForeground": "[[ayame:colors.deleted.hex]]",
+        "editorOverviewRuler.modifiedForeground": "[[ayame:colors.modified.hex]]",
+        "editorOverviewRuler.errorForeground": "[[ayame:colors.error.hex]]",
+        "editorOverviewRuler.warningForeground": "[[ayame:colors.warning.hex]]",
+        "editorOverviewRuler.findMatchForeground": "[[ayame:colors.match.hex]]cc",
+        "minimap.selectionHighlight": "[[ayame:colors.selection.hex]]88",
+        "minimapGutter.addedBackground": "[[ayame:colors.added.hex]]",
+        "minimapGutter.deletedBackground": "[[ayame:colors.deleted.hex]]",
+        "minimapGutter.modifiedBackground": "[[ayame:colors.modified.hex]]",
+        "debugTokenExpression.string": "[[ayame:colors.string.hex]]",
+        "debugTokenExpression.boolean": "[[ayame:colors.constant.hex]]",
+        "debugTokenExpression.error": "[[ayame:colors.error.hex]]",
+        "debugTokenExpression.number": "[[ayame:colors.constant.hex]]",
+        "debugTokenExpression.name": "[[ayame:colors.purple.hex]]",
+        "debugTokenExpression.value": "[[ayame:colors.value.hex]]",
+        "editor.stackFrameHighlightBackground": "[[ayame:colors.focus.hex]]44",
+        "keybindingLabel.background": "[[ayame:colors.modal.hex]]",
+        "keybindingLabel.border": "[[ayame:colors.border.hex]]",
+        "keybindingLabel.foreground": "[[ayame:colors.foreground.hex]]",
+        "keybindingTable.headerBackground": "[[ayame:colors.subheader.hex]]",
+        "keybindingTable.rowsBackground": "[[ayame:colors.altrow.hex]]88",
+        "editorBracketHighlight.foreground1": "[[ayame:colors.red.hex]]cc",
+        "editorBracketHighlight.foreground2": "[[ayame:colors.orange.hex]]cc",
+        "editorBracketHighlight.foreground3": "[[ayame:colors.yellow.hex]]cc",
+        "editorBracketHighlight.foreground4": "[[ayame:colors.green.hex]]cc",
+        "editorBracketHighlight.foreground5": "[[ayame:colors.cyan.hex]]cc",
+        "editorBracketHighlight.foreground6": "[[ayame:colors.blue.hex]]cc",
+        "editorBracketMatch.background": "[[ayame:colors.bg700.hex]]",
+        "editorBracketMatch.border": "[[ayame:colors.punctuation.hex]]",
+        "editorCursor.background": "[[ayame:colors.background.hex]]",
+        "editorCursor.foreground": "[[ayame:colors.cursor.hex]]",
+        "editorError.background": "[[ayame:colors.error.hex]]22",
+        "editorError.foreground": "[[ayame:colors.error.hex]]",
+        "editorCodeLens.foreground": "[[ayame:colors.muted.hex]]",
+        "problemsErrorIcon.foreground": "[[ayame:colors.error.hex]]",
+        "problemsWarningIcon.foreground": "[[ayame:colors.warning.hex]]",
+        "problemsInfoIcon.foreground": "[[ayame:colors.info.hex]]",
+        "peekView.border": "[[ayame:colors.border.hex]]",
+        "peekViewEditor.background": "[[ayame:colors.modal.hex]]",
+        "peekViewEditor.matchHighlightBackground": "[[ayame:colors.match.hex]]44",
+        "peekViewEditor.matchHighlightBorder": "[[ayame:colors.match.hex]]88",
+        "peekViewEditorStickyScroll.background": "[[ayame:colors.background.hex]]",
+        "peekViewResult.background": "[[ayame:colors.modal.hex]]88",
+        "peekViewResult.lineForeground": "[[ayame:colors.foreground.hex]]",
+        "peekViewResult.matchHighlightBackground": "[[ayame:colors.match.hex]]44",
+        "peekViewTitle.background": "[[ayame:colors.subheader.hex]]",
+        "peekViewTitleDescription.foreground": "[[ayame:colors.muted.hex]]",
+        "peekViewTitleLabel.foreground": "[[ayame:colors.focus.hex]]",
+        "diffEditor.removedLineBackground": "[[ayame:colors.deleted.hex]]11",
+        "diffEditor.removedTextBackground": "[[ayame:colors.deleted.hex]]11",
+        "diffEditor.removedTextBorder": "[[ayame:colors.deleted.hex]]22",
+        "diffEditor.border": "[[ayame:colors.border.hex]]",
+        "diffEditor.diagonalFill": "[[ayame:colors.border.hex]]",
+        "diffEditor.insertedLineBackground": "[[ayame:colors.added.hex]]11",
+        "diffEditor.insertedTextBackground": "[[ayame:colors.added.hex]]11",
+        "diffEditor.insertedTextBorder": "[[ayame:colors.added.hex]]11",
+        "diffEditorGutter.insertedLineBackground": "[[ayame:colors.added.hex]]11",
+        "diffEditorGutter.removedLineBackground": "[[ayame:colors.deleted.hex]]11",
+        "editorGroupHeader.tabsBackground": "[[ayame:colors.background.hex]]",
+        "editorGutter.addedBackground": "[[ayame:colors.added.hex]]88",
+        "editorGutter.deletedBackground": "[[ayame:colors.deleted.hex]]88",
+        "editorGutter.modifiedBackground": "[[ayame:colors.modified.hex]]88",
+        "editorIndentGuide.activeBackground1": "[[ayame:colors.focusborder.hex]]",
+        "editorIndentGuide.background1": "[[ayame:colors.gutter.hex]]",
+        "editorLineNumber.activeForeground": "[[ayame:colors.cursor.hex]]",
+        "editorLineNumber.foreground": "[[ayame:colors.gutter.hex]]",
+        "editorRuler.foreground": "[[ayame:colors.rule.hex]]",
+        "editorSuggestWidget.background": "[[ayame:colors.modal.hex]]",
+        "editorSuggestWidget.border": "[[ayame:colors.border2.hex]]",
+        "editorSuggestWidget.focusHighlightForeground": "[[ayame:colors.focus.hex]]",
+        "editorSuggestWidget.foreground": "[[ayame:colors.foreground.hex]]",
+        "editorSuggestWidget.highlightForeground": "[[ayame:colors.secondary.hex]]",
+        "editorSuggestWidget.selectedBackground": "[[ayame:colors.modalhighlight.hex]]",
+        "editorSuggestWidget.selectedForeground": "[[ayame:colors.foreground.hex]]",
+        "editorWarning.background": "[[ayame:colors.warning.hex]]22",
+        "editorWarning.foreground": "[[ayame:colors.warning.hex]]",
+        "editorWidget.background": "[[ayame:colors.modal.hex]]",
+        "editorWidget.border": "[[ayame:colors.active.hex]]",
+        "focusBorder": "[[ayame:colors.primary.hex]]",
+        "foreground": "[[ayame:colors.foreground.hex]]",
+        "gitDecoration.addedResourceForeground": "[[ayame:colors.added.hex]]",
+        "gitDecoration.deletedResourceForeground": "[[ayame:colors.deleted.hex]]",
+        "gitDecoration.modifiedResourceForeground": "[[ayame:colors.modified.hex]]",
+        "icon.foreground": "[[ayame:colors.foreground.hex]]",
+        "input.background": "[[ayame:colors.input.hex]]",
+        "list.activeSelectionBackground": "[[ayame:colors.highlight.hex]]",
+        "list.activeSelectionForeground": "[[ayame:colors.focus.hex]]",
+        "list.errorForeground": "[[ayame:colors.error.hex]]",
+        "list.focusAndSelectionOutline": "[[ayame:colors.focusborder.hex]]",
+        "list.hoverBackground": "[[ayame:colors.altrow.hex]]",
+        "list.hoverForeground": "[[ayame:colors.focus.hex]]",
+        "list.inactiveSelectionBackground": "[[ayame:colors.altrow.hex]]",
+        "list.warningForeground": "[[ayame:colors.warning.hex]]",
+        "markdown.extension.editor.codeSpan.border": "[[ayame:colors.border.hex]]",
+        "markdown.extension.editor.codeSpan.background": "[[ayame:colors.modal.hex]]",
+        "list.dropBackground": "[[ayame:colors.black.hex]]88",
+        "editor.foldBackground": "[[ayame:colors.folded.hex]]44",
+        "menu.background": "[[ayame:colors.menu.hex]]",
+        "minimap.background": "[[ayame:colors.modal.hex]]cc",
+        "minimap.errorHighlight": "[[ayame:colors.error.hex]]",
+        "minimap.findMatchHighlight": "[[ayame:colors.match.hex]]cc",
+        "minimap.warningHighlight": "[[ayame:colors.warning.hex]]",
+        "minimapSlider.activeBackground": "[[ayame:colors.secondary.hex]]44",
+        "minimapSlider.background": "[[ayame:colors.fg400.hex]]22",
+        "minimapSlider.hoverBackground": "[[ayame:colors.fg400.hex]]44",
+        "panel.background": "[[ayame:colors.modal.hex]]",
+        "panel.border": "[[ayame:colors.border.hex]]",
+        "bookmarks.lineBackground": "[[ayame:colors.bookmark.hex]]44",
+        "bookmarks.lineBorder": "[[ayame:colors.bookmark.hex]]",
+        "panelTitle.activeBorder": "[[ayame:colors.activeborder.hex]]",
+        "panelTitle.activeForeground": "[[ayame:colors.cursor.hex]]",
+        "profileBadge.background": "[[ayame:colors.fg400.hex]]",
+        "profileBadge.foreground": "[[ayame:colors.purewhite.hex]]",
+        "quickInput.background": "[[ayame:colors.modal.hex]]",
+        "selection.background": "[[ayame:colors.selection.hex]]",
+        "settings.modifiedItemIndicator": "[[ayame:colors.modified.hex]]88",
+        "sideBar.background": "[[ayame:colors.modal.hex]]",
+        "sideBar.border": "[[ayame:colors.border.hex]]",
+        "sideBar.foreground": "[[ayame:colors.foreground.hex]]",
+        "sideBarSectionHeader.background": "[[ayame:colors.subheader.hex]]",
+        "sideBarSectionHeader.foreground": "[[ayame:colors.cursor.hex]]",
+        "tab.activeForeground": "[[ayame:colors.focus.hex]]",
+        "sideBarTitle.foreground": "[[ayame:colors.foreground2.hex]]",
+        "debugIcon.breakpointCurrentStackframeForeground": "[[ayame:colors.yellow.hex]]",
+        "menu.foreground": "[[ayame:colors.foreground.hex]]",
+        "menu.border": "[[ayame:colors.border.hex]]",
+        "menu.separatorBackground": "[[ayame:colors.muted.hex]]",
+        "editorLineNumber.dimmedForeground": "[[ayame:colors.fg800.hex]]",
+        "outputView.background": "[[ayame:colors.background.hex]]",
+        "debugConsole.errorForeground": "[[ayame:colors.error.hex]]",
+        "debugConsole.infoForeground": "[[ayame:colors.info.hex]]",
+        "debugConsole.warningForeground": "[[ayame:colors.warning.hex]]",
+        "debugConsole.sourceForeground": "[[ayame:colors.darkblue.hex]]",
+        "statusBar.background": "[[ayame:colors.toolbar.hex]]",
+        "statusBar.border": "[[ayame:colors.border.hex]]",
+        "statusBar.foreground": "[[ayame:colors.foreground.hex]]",
+        "statusBarItem.remoteBackground": "[[ayame:colors.secondary.hex]]",
+        "statusBar.debuggingBackground": "[[ayame:colors.toolbar.hex]]",
+        "statusBar.debuggingForeground": "[[ayame:colors.debug.hex]]",
+        "statusBar.debuggingBorder": "[[ayame:colors.debug.hex]]44",
+        "inputValidation.errorBackground": "[[ayame:colors.error2.hex]]",
+        "inputValidation.errorBorder": "[[ayame:colors.error.hex]]",
+        "tab.activeBackground": "[[ayame:colors.modal.hex]]",
+        "scrollbarSlider.activeBackground": "[[ayame:colors.secondary.hex]]44",
+        "scrollbarSlider.background": "[[ayame:colors.fg400.hex]]22",
+        "scrollbarSlider.hoverBackground": "[[ayame:colors.fg400.hex]]44",
+        "activityBarBadge.foreground": "[[ayame:colors.purewhite.hex]]",
+        "activityBar.background": "[[ayame:colors.toolbar.hex]]",
+        "activityBar.foreground": "[[ayame:colors.focus.hex]]",
+        "activityBar.activeBackground": "[[ayame:colors.toolbar.hex]]",
+        "activityBar.activeBorder": "[[ayame:colors.focus.hex]]",
+        "activityBar.inactiveForeground": "[[ayame:colors.muted.hex]]",
+        "activityBarTop.foreground": "[[ayame:colors.foreground.hex]]",
+        "activityBarTop.activeBorder": "[[ayame:colors.focus.hex]]",
+        "activityBarTop.inactiveForeground": "[[ayame:colors.muted.hex]]",
+        "breadcrumbPicker.background": "[[ayame:colors.menu.hex]]",
+        "breadcrumb.activeSelectionForeground": "[[ayame:colors.focus.hex]]",
+        "breadcrumb.focusForeground": "[[ayame:colors.focus.hex]]",
+        "breadcrumb.foreground": "[[ayame:colors.foreground.hex]]",
+        "tab.activeBorderTop": "[[ayame:colors.activeborder.hex]]",
+        "tab.border": "[[ayame:colors.border.hex]]",
+        "tab.hoverBackground": "[[ayame:colors.hover.hex]]",
+        "tab.inactiveBackground": "[[ayame:colors.background.hex]]",
+        "tab.inactiveForeground": "[[ayame:colors.muted.hex]]",
+        "terminal.ansiBlack": "[[ayame:colors.darkgray.hex]]",
+        "terminal.ansiBlue": "[[ayame:colors.darkblue.hex]]",
+        "terminal.ansiBrightBlack": "[[ayame:colors.black.hex]]",
+        "terminal.ansiBrightBlue": "[[ayame:colors.blue.hex]]",
+        "terminal.ansiBrightCyan": "[[ayame:colors.cyan.hex]]",
+        "terminal.ansiBrightGreen": "[[ayame:colors.green.hex]]",
+        "terminal.ansiBrightMagenta": "[[ayame:colors.magenta.hex]]",
+        "terminal.ansiBrightRed": "[[ayame:colors.red.hex]]",
+        "terminal.ansiBrightWhite": "[[ayame:colors.white.hex]]",
+        "terminal.ansiBrightYellow": "[[ayame:colors.yellow.hex]]",
+        "terminal.ansiCyan": "[[ayame:colors.darkcyan.hex]]",
+        "terminal.ansiGreen": "[[ayame:colors.darkgreen.hex]]",
+        "terminal.ansiMagenta": "[[ayame:colors.darkmagenta.hex]]",
+        "terminal.ansiRed": "[[ayame:colors.darkred.hex]]",
+        "terminal.ansiWhite": "[[ayame:colors.darkwhite.hex]]",
+        "terminal.ansiYellow": "[[ayame:colors.orange.hex]]",
+        "terminal.background": "[[ayame:colors.background.hex]]",
+        "terminal.foreground": "[[ayame:colors.foreground.hex]]",
+        "terminalCursor.background": "[[ayame:colors.background.hex]]",
+        "terminalCursor.foreground": "[[ayame:colors.cursor.hex]]",
+        "textLink.activeForeground": "[[ayame:colors.linkhover.hex]]",
+        "textLink.foreground": "[[ayame:colors.hyperlink.hex]]",
+        "titleBar.activeBackground": "[[ayame:colors.highlight.hex]]",
+        "titleBar.inactiveBackground": "[[ayame:colors.background.hex]]",
+        "debugIcon.breakpointForeground": "[[ayame:colors.breakpoint.hex]]",
+        "debugIcon.continueForeground": "[[ayame:colors.debug.hex]]",
+        "debugIcon.stopForeground": "[[ayame:colors.stop.hex]]",
+        "debugIcon.restartForeground": "[[ayame:colors.debug.hex]]",
+        "debugIcon.stepOverForeground": "[[ayame:colors.primary.hex]]",
+        "debugIcon.stepIntoForeground": "[[ayame:colors.secondary.hex]]",
+        "debugIcon.stepOutForeground": "[[ayame:colors.secondary.hex]]",
+        "toolbar.hoverBackground": "[[ayame:colors.altrow.hex]]",
+        "toolbar.activeBackground": "[[ayame:colors.modalhighlight.hex]]",
+        "toolbar.hoverOutline": "[[ayame:colors.border.hex]]",
+        "debugToolBar.background": "[[ayame:colors.toolbar.hex]]",
+        "errorForeground": "[[ayame:colors.error.hex]]",
+        "debugToolBar.border": "[[ayame:colors.border.hex]]",
+        "tree.inactiveIndentGuidesStroke": "[[ayame:colors.rule.hex]]",
+        "tree.indentGuidesStroke": "[[ayame:colors.highlightborder.hex]]"
+    },
+    "tokenColors": [
+        {
+            "name": "Comment",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "[[ayame:colors.comment.hex]]"
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": [
+                "variable",
+                "string constant.other.placeholder"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.variable.hex]]"
+            }
+        },
+        {
+            "name": "Colors",
+            "scope": [
+                "constant.other.color"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.purewhite.hex]]"
+            }
+        },
+        {
+            "name": "Invalid",
+            "scope": [
+                "invalid",
+                "invalid.illegal"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.invalid.hex]]"
+            }
+        },
+        {
+            "name": "Keyword, Storage",
+            "scope": [
+                "keyword",
+                "storage.type",
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.keyword.hex]]",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Operator Keyword",
+            "scope": [
+                "keyword.operator"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.operator.hex]]",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Operator, Misc",
+            "scope": [
+                "constant.other.color",
+                "punctuation",
+                "meta.tag",
+                "punctuation.separator.inheritance.php",
+                "punctuation.section.embedded",
+                "keyword.other.template",
+                "keyword.other.substitution"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.terminator.hex]]"
+            }
+        },
+        {
+            "name": "String Definition Punctuation",
+            "scope": [
+                "punctuation.definition.string"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.green700.hex]]"
+            }
+        },
+        {
+            "name": "Template Definition Punctuation",
+            "scope": [
+                "punctuation.definition.template-expression"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.red.hex]]"
+            }
+        },
+        {
+            "name": "Control Keyword",
+            "scope": [
+                "keyword.control"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.control.hex]]",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Tag",
+            "scope": [
+                "entity.name.tag",
+                "meta.tag.sgml",
+                "markup.deleted.git_gutter"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.tag.hex]]"
+            }
+        },
+        {
+            "name": "Function, Special Method",
+            "scope": [
+                "entity.name.function",
+                "meta.function-call",
+                "variable.function",
+                "support.function",
+                "keyword.other.special-method"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.function.hex]]"
+            }
+        },
+        {
+            "name": "Object",
+            "scope": [
+                "variable.other.object"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.object.hex]]"
+            }
+        },
+        {
+            "name": "Block Level Variables",
+            "scope": [
+                "meta.block variable.other"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.foreground.hex]]"
+            }
+        },
+        {
+            "name": "Other Variable, String Link",
+            "scope": [
+                "support.other.variable",
+                "string.other.link"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.foreground.hex]]"
+            }
+        },
+        {
+            "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+            "scope": [
+                "constant.numeric",
+                "constant.language",
+                "support.constant",
+                "variable.parameter",
+                "constant.character",
+                "constant.escape",
+                "keyword.other.unit",
+                "keyword.other"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.constant.hex]]"
+            }
+        },
+        {
+            "name": "String, Symbols, Inherited Class, Markup Heading",
+            "scope": [
+                "string",
+                "constant.other.symbol",
+                "constant.other.key",
+                "entity.other.inherited-class",
+                "markup.heading",
+                "markup.inserted.git_gutter",
+                "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.string.hex]]"
+            }
+        },
+        {
+            "name": "Class, Support",
+            "scope": [
+                "entity.name",
+                "support.type",
+                "support.class",
+                "support.other.namespace.use.php",
+                "meta.use.php",
+                "support.other.namespace.php",
+                "markup.changed.git_gutter",
+                "support.type.sys-types"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.class.hex]]"
+            }
+        },
+        {
+            "name": "CSS Class and Support",
+            "scope": [
+                "source.css support.type.property-name",
+                "source.sass support.type.property-name",
+                "source.scss support.type.property-name",
+                "source.less support.type.property-name",
+                "source.stylus support.type.property-name",
+                "source.postcss support.type.property-name"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.yellow.hex]]"
+            }
+        },
+        {
+            "name": "Sub-methods",
+            "scope": [
+                "entity.name.module.js",
+                "variable.import.parameter.js",
+                "variable.other.class.js"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.this.hex]]"
+            }
+        },
+        {
+            "name": "Language methods",
+            "scope": [
+                "variable.language"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "[[ayame:colors.this.hex]]"
+            }
+        },
+        {
+            "name": "entity.name.method.js",
+            "scope": [
+                "entity.name.method.js"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "[[ayame:colors.identifier.hex]]"
+            }
+        },
+        {
+            "name": "meta.method.js",
+            "scope": [
+                "meta.class-method.js entity.name.function.js",
+                "variable.function.constructor"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.blue.hex]]"
+            }
+        },
+        {
+            "name": "Attributes",
+            "scope": [
+                "entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.attribute.hex]]"
+            }
+        },
+        {
+            "name": "HTML Attributes",
+            "scope": [
+                "text.html.basic entity.other.attribute-name.html",
+                "text.html.basic entity.other.attribute-name"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "[[ayame:colors.yellow.hex]]"
+            }
+        },
+        {
+            "name": "CSS Classes",
+            "scope": [
+                "entity.other.attribute-name.class"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.yellow.hex]]"
+            }
+        },
+        {
+            "name": "CSS ID's",
+            "scope": [
+                "source.sass keyword.control"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.control.hex]]"
+            }
+        },
+        {
+            "name": "Inserted",
+            "scope": [
+                "markup.inserted"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.added.hex]]"
+            }
+        },
+        {
+            "name": "Deleted",
+            "scope": [
+                "markup.deleted"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.deleted.hex]]"
+            }
+        },
+        {
+            "name": "Changed",
+            "scope": [
+                "markup.changed"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.modified.hex]]"
+            }
+        },
+        {
+            "name": "Regular Expressions",
+            "scope": [
+                "string.regexp"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.regex.hex]]"
+            }
+        },
+        {
+            "name": "Escape Characters",
+            "scope": [
+                "constant.character.escape"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.escape.hex]]"
+            }
+        },
+        {
+            "name": "URL",
+            "scope": [
+                "*url*",
+                "*link*",
+                "*uri*"
+            ],
+            "settings": {
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "name": "Decorators",
+            "scope": [
+                "tag.decorator.js entity.name.tag.js",
+                "tag.decorator.js punctuation.definition.tag.js"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "[[ayame:colors.cyan.hex]]"
+            }
+        },
+        {
+            "name": "ES7 Bind Operator",
+            "scope": [
+                "source.js constant.other.object.key.js string.unquoted.label.js"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "[[ayame:colors.red.hex]]"
+            }
+        },
+        {
+            "name": "JSON Key - Level 0",
+            "scope": [
+                "source.json meta.structure.dictionary.json support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.purple300.hex]]"
+            }
+        },
+        {
+            "name": "JSON Key - Level 1",
+            "scope": [
+                "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.purple700.hex]]"
+            }
+        },
+        {
+            "name": "JSON Key - Level 2",
+            "scope": [
+                "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.blue300.hex]]"
+            }
+        },
+        {
+            "name": "JSON Key - Level 3",
+            "scope": [
+                "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.blue700.hex]]"
+            }
+        },
+        {
+            "name": "JSON Key - Level 4",
+            "scope": [
+                "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.magenta300.hex]]"
+            }
+        },
+        {
+            "name": "JSON Key - Level 5",
+            "scope": [
+                "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.magenta700.hex]]"
+            }
+        },
+        {
+            "name": "JSON Key - Level 6",
+            "scope": [
+                "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.teal300.hex]]"
+            }
+        },
+        {
+            "name": "JSON Key - Level 7",
+            "scope": [
+                "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.teal700.hex]]"
+            }
+        },
+        {
+            "name": "JSON Key - Level 8",
+            "scope": [
+                "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.cyan.hex]]"
+            }
+        },
+        {
+            "name": "Markdown - Plain",
+            "scope": [
+                "text.html.markdown",
+                "punctuation.definition.list_item.markdown"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.foreground.hex]]"
+            }
+        },
+        {
+            "name": "Markdown - Markup Raw Inline",
+            "scope": [
+                "text.html.markdown markup.inline.raw.markdown"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.code.hex]]"
+            }
+        },
+        {
+            "name": "Markdown - Markup Raw Inline Punctuation",
+            "scope": [
+                "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.terminator.hex]]"
+            }
+        },
+        {
+            "name": "Markdown - Heading",
+            "scope": [
+                "markdown.heading",
+                "markup.heading | markup.heading entity.name",
+                "markup.heading.markdown punctuation.definition.heading.markdown"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.green.hex]]"
+            }
+        },
+        {
+            "name": "Markup - Italic",
+            "scope": [
+                "markup.italic"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "[[ayame:colors.italics.hex]]"
+            }
+        },
+        {
+            "name": "Markup - Bold",
+            "scope": [
+                "markup.bold",
+                "markup.bold string"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "[[ayame:colors.bold.hex]]"
+            }
+        },
+        {
+            "name": "Markup - Bold-Italic",
+            "scope": [
+                "markup.bold markup.italic",
+                "markup.italic markup.bold",
+                "markup.quote markup.bold",
+                "markup.bold markup.italic string",
+                "markup.italic markup.bold string",
+                "markup.quote markup.bold string"
+            ],
+            "settings": {
+                "fontStyle": "italic bold",
+                "foreground": "[[ayame:colors.bold.hex]]"
+            }
+        },
+        {
+            "name": "Markup - Underline",
+            "scope": [
+                "markup.underline"
+            ],
+            "settings": {
+                "fontStyle": "underline",
+                "foreground": "[[ayame:colors.fg500.hex]]"
+            }
+        },
+        {
+            "name": "Markdown - Blockquote",
+            "scope": [
+                "markup.quote punctuation.definition.blockquote.markdown"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.blockquote.hex]]"
+            }
+        },
+        {
+            "name": "Markup - Quote",
+            "scope": [
+                "markup.quote"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "[[ayame:colors.blockquote.hex]]"
+            }
+        },
+        {
+            "name": "Markdown - Link",
+            "scope": [
+                "string.other.link.title.markdown"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.hyperlink.hex]]"
+            }
+        },
+        {
+            "name": "Markdown - Link Description",
+            "scope": [
+                "string.other.link.description.title.markdown"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.yellow700.hex]]"
+            }
+        },
+        {
+            "name": "Markdown - Link Anchor",
+            "scope": [
+                "constant.other.reference.link.markdown"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.yellow.hex]]"
+            }
+        },
+        {
+            "name": "Markup - Raw Block",
+            "scope": [
+                "markup.raw.block"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.code.hex]]"
+            }
+        },
+        {
+            "name": "Markdown - Raw Block Fenced",
+            "scope": [
+                "markup.raw.block.fenced.markdown"
+            ],
+            "settings": {
+                "foreground": "#00000050"
+            }
+        },
+        {
+            "name": "Markdown - Fenced Bode Block",
+            "scope": [
+                "punctuation.definition.fenced.markdown"
+            ],
+            "settings": {
+                "foreground": "#00000050"
+            }
+        },
+        {
+            "name": "Markdown - Fenced Bode Block Variable",
+            "scope": [
+                "markup.raw.block.fenced.markdown",
+                "variable.language.fenced.markdown",
+                "punctuation.section.class.end"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.variable.hex]]"
+            }
+        },
+        {
+            "name": "Markdown - Fenced Language",
+            "scope": [
+                "variable.language.fenced.markdown"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.variable.hex]]"
+            }
+        },
+        {
+            "name": "Markdown - Separator",
+            "scope": [
+                "meta.separator"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "[[ayame:colors.bracket.hex]]"
+            }
+        },
+        {
+            "name": "Markup - Table",
+            "scope": [
+                "markup.table"
+            ],
+            "settings": {
+                "foreground": "[[ayame:colors.fg500.hex]]"
+            }
+        }
+    ]
+}
