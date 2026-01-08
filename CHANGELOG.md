@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.1.2]
+
+- Darken orange.
+- Darken red.
+
 ## [1.1.1]
 
 - Change variable color to foreground.

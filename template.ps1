@@ -22,7 +22,7 @@ LogInfo('-------------------------')
 LogInfo('I have been summmoned to replace Ayame template variables in "./template/**" -- Stand by.')
 
 LogInfo('Fetching Ayame definitions JSON.')
-$AyameJsonPath = 'https://raw.githubusercontent.com/AyameTheme/Ayame/refs/heads/master/build/out/ayame.json'
+$AyameJsonPath = 'https://raw.githubusercontent.com/AyameTheme/Ayame/refs/heads/master/bin/ayame.json'
 $Response = curl -i $AyameJsonPath
 
 if (-not $Response[0].Contains('200')) {

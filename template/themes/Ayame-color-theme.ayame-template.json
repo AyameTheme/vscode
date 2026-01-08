@@ -742,7 +742,7 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "[[ayame:colors.italics.hex]]"
+                "foreground": "[[ayame:colors.italic.hex]]"
             }
         },
         {
